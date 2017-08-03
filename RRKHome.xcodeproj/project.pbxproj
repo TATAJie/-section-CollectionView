@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0152A61F32B9E10085F618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152A51F32B9E10085F618 /* main.m */; };
+		8F0152A91F32B9E10085F618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152A81F32B9E10085F618 /* AppDelegate.m */; };
+		8F0152AC1F32B9E10085F618 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152AB1F32B9E10085F618 /* ViewController.m */; };
+		8F0152AF1F32B9E10085F618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0152AD1F32B9E10085F618 /* Main.storyboard */; };
+		8F0152B11F32B9E10085F618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0152B01F32B9E10085F618 /* Assets.xcassets */; };
+		8F0152B41F32B9E10085F618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0152B21F32B9E10085F618 /* LaunchScreen.storyboard */; };
+		8F0152BF1F32B9E10085F618 /* RRKHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152BE1F32B9E10085F618 /* RRKHomeTests.m */; };
+		8F0152CA1F32B9E10085F618 /* RRKHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152C91F32B9E10085F618 /* RRKHomeUITests.m */; };
+		8F0152D91F32BC1E0085F618 /* RRKHomeCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152D81F32BC1E0085F618 /* RRKHomeCollectionLayout.m */; };
+		8F0152DE1F32BDF80085F618 /* RRKHomeCellOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152DC1F32BDF80085F618 /* RRKHomeCellOne.m */; };
+		8F0152DF1F32BDF80085F618 /* RRKHomeCellOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0152DD1F32BDF80085F618 /* RRKHomeCellOne.xib */; };
+		8F0152E31F32BE080085F618 /* RRKHomeCellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152E11F32BE080085F618 /* RRKHomeCellTwo.m */; };
+		8F0152E41F32BE080085F618 /* RRKHomeCellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0152E21F32BE080085F618 /* RRKHomeCellTwo.xib */; };
+		8F0152E81F32BE160085F618 /* RRKHomeCellThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0152E61F32BE160085F618 /* RRKHomeCellThree.m */; };
+		8F0152E91F32BE160085F618 /* RRKHomeCellThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0152E71F32BE160085F618 /* RRKHomeCellThree.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0152BB1F32B9E10085F618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0152991F32B9E10085F618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0152A01F32B9E10085F618;
+			remoteInfo = RRKHome;
+		};
+		8F0152C61F32B9E10085F618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0152991F32B9E10085F618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0152A01F32B9E10085F618;
+			remoteInfo = RRKHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0152A11F32B9E10085F618 /* RRKHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRKHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0152A51F32B9E10085F618 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F0152A71F32B9E10085F618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F0152A81F32B9E10085F618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F0152AA1F32B9E10085F618 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F0152AB1F32B9E10085F618 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F0152AE1F32B9E10085F618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0152B01F32B9E10085F618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0152B31F32B9E10085F618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F0152B51F32B9E10085F618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0152BA1F32B9E10085F618 /* RRKHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRKHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0152BE1F32B9E10085F618 /* RRKHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRKHomeTests.m; sourceTree = "<group>"; };
+		8F0152C01F32B9E10085F618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0152C51F32B9E10085F618 /* RRKHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRKHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0152C91F32B9E10085F618 /* RRKHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRKHomeUITests.m; sourceTree = "<group>"; };
+		8F0152CB1F32B9E10085F618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0152D71F32BC1E0085F618 /* RRKHomeCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRKHomeCollectionLayout.h; sourceTree = "<group>"; };
+		8F0152D81F32BC1E0085F618 /* RRKHomeCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRKHomeCollectionLayout.m; sourceTree = "<group>"; };
+		8F0152DB1F32BDF80085F618 /* RRKHomeCellOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRKHomeCellOne.h; sourceTree = "<group>"; };
+		8F0152DC1F32BDF80085F618 /* RRKHomeCellOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRKHomeCellOne.m; sourceTree = "<group>"; };
+		8F0152DD1F32BDF80085F618 /* RRKHomeCellOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRKHomeCellOne.xib; sourceTree = "<group>"; };
+		8F0152E01F32BE080085F618 /* RRKHomeCellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRKHomeCellTwo.h; sourceTree = "<group>"; };
+		8F0152E11F32BE080085F618 /* RRKHomeCellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRKHomeCellTwo.m; sourceTree = "<group>"; };
+		8F0152E21F32BE080085F618 /* RRKHomeCellTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRKHomeCellTwo.xib; sourceTree = "<group>"; };
+		8F0152E51F32BE160085F618 /* RRKHomeCellThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRKHomeCellThree.h; sourceTree = "<group>"; };
+		8F0152E61F32BE160085F618 /* RRKHomeCellThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRKHomeCellThree.m; sourceTree = "<group>"; };
+		8F0152E71F32BE160085F618 /* RRKHomeCellThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRKHomeCellThree.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F01529E1F32B9E10085F618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0152B71F32B9E10085F618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0152C21F32B9E10085F618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0152981F32B9E10085F618 = {
+			isa = PBXGroup;
+			children = (
+				8F0152A31F32B9E10085F618 /* RRKHome */,
+				8F0152BD1F32B9E10085F618 /* RRKHomeTests */,
+				8F0152C81F32B9E10085F618 /* RRKHomeUITests */,
+				8F0152A21F32B9E10085F618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0152A21F32B9E10085F618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0152A11F32B9E10085F618 /* RRKHome.app */,
+				8F0152BA1F32B9E10085F618 /* RRKHomeTests.xctest */,
+				8F0152C51F32B9E10085F618 /* RRKHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0152A31F32B9E10085F618 /* RRKHome */ = {
+			isa = PBXGroup;
+			children = (
+				8F0152DA1F32BD3F0085F618 /* Views */,
+				8F0152A71F32B9E10085F618 /* AppDelegate.h */,
+				8F0152A81F32B9E10085F618 /* AppDelegate.m */,
+				8F0152AA1F32B9E10085F618 /* ViewController.h */,
+				8F0152AB1F32B9E10085F618 /* ViewController.m */,
+				8F0152D71F32BC1E0085F618 /* RRKHomeCollectionLayout.h */,
+				8F0152D81F32BC1E0085F618 /* RRKHomeCollectionLayout.m */,
+				8F0152AD1F32B9E10085F618 /* Main.storyboard */,
+				8F0152B01F32B9E10085F618 /* Assets.xcassets */,
+				8F0152B21F32B9E10085F618 /* LaunchScreen.storyboard */,
+				8F0152B51F32B9E10085F618 /* Info.plist */,
+				8F0152A41F32B9E10085F618 /* Supporting Files */,
+			);
+			path = RRKHome;
+			sourceTree = "<group>";
+		};
+		8F0152A41F32B9E10085F618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0152A51F32B9E10085F618 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F0152BD1F32B9E10085F618 /* RRKHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0152BE1F32B9E10085F618 /* RRKHomeTests.m */,
+				8F0152C01F32B9E10085F618 /* Info.plist */,
+			);
+			path = RRKHomeTests;
+			sourceTree = "<group>";
+		};
+		8F0152C81F32B9E10085F618 /* RRKHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0152C91F32B9E10085F618 /* RRKHomeUITests.m */,
+				8F0152CB1F32B9E10085F618 /* Info.plist */,
+			);
+			path = RRKHomeUITests;
+			sourceTree = "<group>";
+		};
+		8F0152DA1F32BD3F0085F618 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F0152DB1F32BDF80085F618 /* RRKHomeCellOne.h */,
+				8F0152DC1F32BDF80085F618 /* RRKHomeCellOne.m */,
+				8F0152DD1F32BDF80085F618 /* RRKHomeCellOne.xib */,
+				8F0152E01F32BE080085F618 /* RRKHomeCellTwo.h */,
+				8F0152E11F32BE080085F618 /* RRKHomeCellTwo.m */,
+				8F0152E21F32BE080085F618 /* RRKHomeCellTwo.xib */,
+				8F0152E51F32BE160085F618 /* RRKHomeCellThree.h */,
+				8F0152E61F32BE160085F618 /* RRKHomeCellThree.m */,
+				8F0152E71F32BE160085F618 /* RRKHomeCellThree.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0152A01F32B9E10085F618 /* RRKHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0152CE1F32B9E10085F618 /* Build configuration list for PBXNativeTarget "RRKHome" */;
+			buildPhases = (
+				8F01529D1F32B9E10085F618 /* Sources */,
+				8F01529E1F32B9E10085F618 /* Frameworks */,
+				8F01529F1F32B9E10085F618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRKHome;
+			productName = RRKHome;
+			productReference = 8F0152A11F32B9E10085F618 /* RRKHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0152B91F32B9E10085F618 /* RRKHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0152D11F32B9E10085F618 /* Build configuration list for PBXNativeTarget "RRKHomeTests" */;
+			buildPhases = (
+				8F0152B61F32B9E10085F618 /* Sources */,
+				8F0152B71F32B9E10085F618 /* Frameworks */,
+				8F0152B81F32B9E10085F618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0152BC1F32B9E10085F618 /* PBXTargetDependency */,
+			);
+			name = RRKHomeTests;
+			productName = RRKHomeTests;
+			productReference = 8F0152BA1F32B9E10085F618 /* RRKHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F0152C41F32B9E10085F618 /* RRKHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0152D41F32B9E10085F618 /* Build configuration list for PBXNativeTarget "RRKHomeUITests" */;
+			buildPhases = (
+				8F0152C11F32B9E10085F618 /* Sources */,
+				8F0152C21F32B9E10085F618 /* Frameworks */,
+				8F0152C31F32B9E10085F618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0152C71F32B9E10085F618 /* PBXTargetDependency */,
+			);
+			name = RRKHomeUITests;
+			productName = RRKHomeUITests;
+			productReference = 8F0152C51F32B9E10085F618 /* RRKHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0152991F32B9E10085F618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RRK;
+				TargetAttributes = {
+					8F0152A01F32B9E10085F618 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8DSKQ4M35;
+						ProvisioningStyle = Automatic;
+					};
+					8F0152B91F32B9E10085F618 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F0152A01F32B9E10085F618;
+					};
+					8F0152C41F32B9E10085F618 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F0152A01F32B9E10085F618;
+					};
+				};
+			};
+			buildConfigurationList = 8F01529C1F32B9E10085F618 /* Build configuration list for PBXProject "RRKHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0152981F32B9E10085F618;
+			productRefGroup = 8F0152A21F32B9E10085F618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0152A01F32B9E10085F618 /* RRKHome */,
+				8F0152B91F32B9E10085F618 /* RRKHomeTests */,
+				8F0152C41F32B9E10085F618 /* RRKHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F01529F1F32B9E10085F618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0152B41F32B9E10085F618 /* LaunchScreen.storyboard in Resources */,
+				8F0152DF1F32BDF80085F618 /* RRKHomeCellOne.xib in Resources */,
+				8F0152B11F32B9E10085F618 /* Assets.xcassets in Resources */,
+				8F0152AF1F32B9E10085F618 /* Main.storyboard in Resources */,
+				8F0152E41F32BE080085F618 /* RRKHomeCellTwo.xib in Resources */,
+				8F0152E91F32BE160085F618 /* RRKHomeCellThree.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0152B81F32B9E10085F618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0152C31F32B9E10085F618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F01529D1F32B9E10085F618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0152AC1F32B9E10085F618 /* ViewController.m in Sources */,
+				8F0152DE1F32BDF80085F618 /* RRKHomeCellOne.m in Sources */,
+				8F0152A91F32B9E10085F618 /* AppDelegate.m in Sources */,
+				8F0152D91F32BC1E0085F618 /* RRKHomeCollectionLayout.m in Sources */,
+				8F0152E81F32BE160085F618 /* RRKHomeCellThree.m in Sources */,
+				8F0152A61F32B9E10085F618 /* main.m in Sources */,
+				8F0152E31F32BE080085F618 /* RRKHomeCellTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0152B61F32B9E10085F618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0152BF1F32B9E10085F618 /* RRKHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0152C11F32B9E10085F618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0152CA1F32B9E10085F618 /* RRKHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0152BC1F32B9E10085F618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0152A01F32B9E10085F618 /* RRKHome */;
+			targetProxy = 8F0152BB1F32B9E10085F618 /* PBXContainerItemProxy */;
+		};
+		8F0152C71F32B9E10085F618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0152A01F32B9E10085F618 /* RRKHome */;
+			targetProxy = 8F0152C61F32B9E10085F618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F0152AD1F32B9E10085F618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0152AE1F32B9E10085F618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F0152B21F32B9E10085F618 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0152B31F32B9E10085F618 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0152CC1F32B9E10085F618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F0152CD1F32B9E10085F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0152CF1F32B9E10085F618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8DSKQ4M35;
+				INFOPLIST_FILE = RRKHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gztz.dzfx.RRKHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F0152D01F32B9E10085F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8DSKQ4M35;
+				INFOPLIST_FILE = RRKHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gztz.dzfx.RRKHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F0152D21F32B9E10085F618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRKHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gztz.dzfx.RRKHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRKHome.app/RRKHome";
+			};
+			name = Debug;
+		};
+		8F0152D31F32B9E10085F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRKHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gztz.dzfx.RRKHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRKHome.app/RRKHome";
+			};
+			name = Release;
+		};
+		8F0152D51F32B9E10085F618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRKHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gztz.dzfx.RRKHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRKHome;
+			};
+			name = Debug;
+		};
+		8F0152D61F32B9E10085F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRKHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gztz.dzfx.RRKHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRKHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F01529C1F32B9E10085F618 /* Build configuration list for PBXProject "RRKHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0152CC1F32B9E10085F618 /* Debug */,
+				8F0152CD1F32B9E10085F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0152CE1F32B9E10085F618 /* Build configuration list for PBXNativeTarget "RRKHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0152CF1F32B9E10085F618 /* Debug */,
+				8F0152D01F32B9E10085F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F0152D11F32B9E10085F618 /* Build configuration list for PBXNativeTarget "RRKHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0152D21F32B9E10085F618 /* Debug */,
+				8F0152D31F32B9E10085F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F0152D41F32B9E10085F618 /* Build configuration list for PBXNativeTarget "RRKHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0152D51F32B9E10085F618 /* Debug */,
+				8F0152D61F32B9E10085F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0152991F32B9E10085F618 /* Project object */;
+}
